@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abduljabar Asaju  Personal Website</title>
+  <meta name="description" content="Personal website / portfolio of Abduljabar Asaju" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Abduljabar Asaju</h1>
+        <p class="tagline">Full Stack Developer — Responsive web & mobile apps</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-left">
+        <h2>Hi I'm Abduljabar</h2>
+        <p>I build responsive web applications using modern tools (React, Node, TypeScript). Currently studying Computer Science at Federal University Wukari. I enjoy crafting efficient and user‑centric software.</p>
+        <p class="links">
+          <a class="btn" href="https://github.com/Jabarteley" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn outline" href="https://web-portfolio-abduljabar.vercel.app/" target="_blank" rel="noopener">Portfolio</a>
+        </p>
+      </div>
+      <div class="hero-right">
+        <img alt="Abduljabar — portrait placeholder" src="./images/abduljabar3.jpg" />
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About / Objective</h3>
+      <p><strong>Objective:</strong> Motivated and detail-oriented Full Stack Developer with strong skills in building responsive web applications using modern frontend and backend technologies. Passionate about creating efficient, scalable, and user-centric solutions.</p>
+
+      <div class="grid two-col">
+        <div>
+          <h4>Contact</h4>
+          <ul class="plain">
+            <li>Email: <a href="mailto:jabarasaju@gmail.com">jabarasaju@gmail.com</a></li>
+            <li>Phone: <a href="tel:09045398005">09045398005</a></li>
+            <li>Location: Plot 9, Greenhill estate, Oko oba, Agege, Lagos, Nigeria</li>
+            <li>GitHub: <a href="https://github.com/Jabarteley" target="_blank">github.com/Jabarteley</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/abduljabar-asaju-70b4a1389" target="_blank">linkedin.com/in/abduljabar-asaju-70b4a1389</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Education</h4>
+          <p><strong>B.Sc. Computer Science</strong><br/>Federal University Wukari — Expected 2026</p>
+          <p><strong>Secondary School Certificate</strong><br/>Ifako International Schools — 2016–2022</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h3>Skills</h3>
+      <div class="skill-list">
+        <div class="skill"><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), React, Vite, Tailwind, Bootstrap</div>
+        <div class="skill"><strong>Backend:</strong> Node.js, Express.js, REST APIs, JWT</div>
+        <div class="skill"><strong>Databases:</strong> PostgreSQL, MongoDB</div>
+        <div class="skill"><strong>DevOps:</strong> Docker basics, GitHub Actions, Vercel, AWS, Nginx</div>
+        <div class="skill"><strong>Tools:</strong> Git, TypeScript, Testing (Jest)</div>
+      </div>
+    </section>
+
+    <section id="experience" class="container experience">
+      <h3>Experience & Projects</h3>
+      <div class="card">
+        <h4>Part-time Associates</h4>
+        <ul>
+          <li>AMC+AA Cooperations NIGERIA</li>
+          <li>Codeveda Technologies</li>
+          <li>Federal University Wukari ICT Department</li>
+        </ul>
+        <p>See more projects on my portfolio: <a href="https://web-portfolio-abduljabar.vercel.app/" target="_blank">web-portfolio-abduljabar.vercel.app</a></p>
+        
+      </div>
+    </section>
+
+    <section id="gallery" class="container gallery">
+      <h3>Gallery (5 photos)</h3>
+      
+      <div class="grid photos">
+        <img alt="photo 1" src="./images/abduljabar.jpg" />
+        <img alt="photo 2" src="./images/abduljabar1.jpg" />
+        <img alt="photo 3" src="./images/abduljabar2.jpg" />
+        <img alt="photo 4" src="./images/abduljabar3.jpg" />
+        <img alt="photo 5" src="./images/bola.jpg" />
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      
+    <form id="contactForm" onsubmit="return handleForm(event)">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required></textarea>
+        </div>
+        <div class="form-row">
+          <button class="btn" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Abduljabar Asaju  <a href="mailto:jabarasaju@gmail.com">jabarasaju@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
